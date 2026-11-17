@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>任馨芸 Xinyun Ren · 影视配乐 & 声音设计</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo">任馨芸<span class="dot">.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">关于</a>
+        <a href="#works">作品</a>
+        <a href="#journey">经历</a>
+        <a href="#skills">技能</a>
+        <a href="#contact" class="btn btn-primary btn-small">联系我</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <p class="hero-greeting reveal">🎬 你好，我是任馨芸</p>
+      <h1 class="hero-title reveal">Xinyun Ren<span class="gradient-text">.</span></h1>
+      <p class="hero-ename reveal">任馨芸 · 影视配乐 & 声音设计</p>
+      <h2 class="hero-sub reveal">
+        <span id="typewriter"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-desc reveal">
+        爱丁堡大学音乐硕士在读，专注影视配乐与声音设计。<br class="mobile-br" />
+        用管弦乐的温度与电子声场的想象力，为画面写出能被「听见」的情绪。
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#works" class="btn btn-primary">观看我的作品 ↓</a>
+        
+      </div>
+      <div class="hero-stats reveal">
+        <div><strong>No.2</strong><span>擂闪配乐大赛</span></div>
+        <div><strong>3+</strong><span>核心作曲/声音作品</span></div>
+        <div><strong>2</strong><span>行业实习经历</span></div>
+      </div>
+    </div>
+    <div class="waveform" id="waveform" aria-hidden="true"></div>
+  </section>
+
+  <!-- 关于 -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-tag reveal">About</p>
+      <h2 class="section-title reveal">关于我</h2>
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="avatar-ring">
+            <img class="avatar" src="images/xinyun.jpg" alt="任馨芸 Xinyun Ren" />
+          </div>
+          <div class="float-card float-card-1">🎬 影视配乐</div>
+          <div class="float-card float-card-2">🎛️ 声音设计</div>
+          <div class="float-card float-card-3">🤖 AI 音乐探索</div>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            我是<strong>任馨芸</strong>，一位正在路上的<strong>影视配乐作曲 & 声音设计师</strong>。
+            本科毕业于南京师范大学音乐学，现为英国爱丁堡大学
+            <strong>MMus Composition</strong> 硕士在读，主攻影视配乐、管弦乐写作、
+            电子音乐及声音制作方向。
+          </p>
+          <p>
+            从《彷徨之刃》选段的 Hybrid Orchestral 配乐，到逐帧设计的 Foley 拟音，
+            再到 AI 生成音乐的探索与二次创作——我喜欢在「传统作曲功底」与
+            「新兴声音技术」之间寻找交集，让每一段声音都精确服务于叙事。
+          </p>
+          <ul class="about-list">
+            <li>✦ 独立完成作曲 → 配器 → MIDI Mock-up → 混音全流程</li>
+            <li>✦ 擂闪配乐大赛第二名（2025）</li>
+            <li>✦ IELTS 6.5（Speaking 7.5），可全英文工作沟通</li>
+          </ul>
+          <div class="edu-cards">
+            <div class="edu-card">
+              <span class="edu-year">2025 – 2027</span>
+              <strong>爱丁堡大学 University of Edinburgh</strong>
+              <p>MMus Composition 音乐硕士</p>
+            </div>
+            <div class="edu-card">
+              <span class="edu-year">2019 – 2023</span>
+              <strong>南京师范大学</strong>
+              <p>音乐学 本科 · 影视配乐 / 管弦乐 / 电子音乐方向</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品 -->
+  <section class="section section-alt" id="works">
+    <div class="container">
+      <p class="section-tag reveal">Selected Works</p>
+      <h2 class="section-title reveal">精选作品</h2>
+      <p class="works-note reveal">🎬 点击卡片进入作品页，页面内可直接播放（当前媒体文件为占位示例）</p>
+
+      <div class="works-grid">
+        <a class="work-card reveal" href="works/panghuang.html">
+          <div class="work-thumb">
+            <video src="video/panghuang-zhiren.mp4" poster="images/poster-panghuang.jpg" muted preload="metadata" playsinline></video>
+            <span class="thumb-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="award-badge-inline">🏆 擂闪配乐大赛 · 第二名</span>
+          </div>
+          <div class="work-body">
+            <div class="project-tags"><span>Film Scoring</span><span>Hybrid Orchestral</span><span>Electronic</span></div>
+            <h3>彷徨之刃 · Film Scoring</h3>
+            <span class="card-more">进入作品页 →</span>
+          </div>
+        </a>
+
+        <a class="work-card reveal" href="works/hand-in-hand.html">
+          <div class="work-thumb">
+            <video src="video/hand-in-hand.mp4" poster="images/poster-hand-in-hand.jpg" muted preload="metadata" playsinline></video>
+            <span class="thumb-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="work-body">
+            <div class="project-tags"><span>Film Scoring</span><span>Foley</span><span>4 人团队 · 10 周</span></div>
+            <h3>Hand in Hand</h3>
+            <span class="card-more">进入作品页 →</span>
+          </div>
+        </a>
+
+        <a class="work-card reveal" href="works/rose.html">
+          <div class="work-thumb">
+            <img src="images/rose-cover.jpg" alt="Pilgrimage of the Celestial Rose" />
+            <span class="thumb-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="work-body">
+            <div class="project-tags"><span>国风游戏纯音乐</span><span>声音设计</span><span>作曲配器</span></div>
+            <h3>Pilgrimage of the Celestial Rose</h3>
+            <span class="card-more">进入作品页 →</span>
+          </div>
+        </a>
+
+        <a class="work-card reveal" href="works/poulette.html">
+          <div class="work-thumb">
+            <video src="video/poulettes-chair.mp4" poster="images/poster-poulette.jpg" muted preload="metadata" playsinline></video>
+            <span class="thumb-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="work-body">
+            <div class="project-tags"><span>动画配乐</span><span>治愈系</span></div>
+            <h3>Poulette's Chair</h3>
+            <span class="card-more">进入作品页 →</span>
+          </div>
+        </a>
+
+        <a class="work-card reveal" href="works/mario-trailer.html">
+          <div class="work-thumb">
+            <video src="video/mario-trailer.mp4" poster="images/poster-mario.jpg" muted preload="metadata" playsinline></video>
+            <span class="thumb-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="work-body">
+            <div class="project-tags"><span>Trailer Scoring</span><span>游戏预告片</span></div>
+            <h3>Mario Trailer</h3>
+            <span class="card-more">进入作品页 →</span>
+          </div>
+        </a>
+
+        <a class="work-card reveal" href="works/batman-trailer.html">
+          <div class="work-thumb">
+            <video src="video/batman-trailer.mp4" poster="images/poster-batman.jpg" muted preload="metadata" playsinline></video>
+            <span class="thumb-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          </div>
+          <div class="work-body">
+            <div class="project-tags"><span>Trailer Scoring</span><span>电影预告片</span></div>
+            <h3>Batman Trailer</h3>
+            <span class="card-more">进入作品页 →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 经历 -->
+  <section class="section" id="journey">
+    <div class="container">
+      <p class="section-tag reveal">Journey</p>
+      <h2 class="section-title reveal">成长轨迹</h2>
+      <div class="timeline">
+        <div class="t-item reveal">
+          <span class="t-time">2026.10 – 至今</span>
+          <h3>猿力科技 · 音效实习生</h3>
+          <p>课程视频与互动小游戏音效制作；使用百代版权音乐库按内容风格选曲；参与配音监棚；使用火山、Suno 探索 AI 生成音乐辅助素材制作。</p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-time">2025.09 – 2027.02</span>
+          <h3>英国爱丁堡大学 · MMus Composition</h3>
+          <p>影视配乐、管弦乐写作、电子音乐及声音制作方向，完成多项 Film Scoring 与声音设计实践。</p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-time">2023.02 – 2024.04</span>
+          <h3>北京小冰红棉科技 · 音乐分析实习生</h3>
+          <p>负责 AI 音乐数据分析（配器、音色、混音等）；参与行业调研、需求收集与产品迭代；每周数据复盘与内容优化。</p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-time">2019.09 – 2023.06</span>
+          <h3>南京师范大学 · 音乐学本科</h3>
+          <p>系统学习作曲与音乐理论，确立影视配乐与声音制作方向，IELTS 6.5（Speaking 7.5）。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 技能 -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="section-tag reveal">Skills</p>
+      <h2 class="section-title reveal">声音工具箱</h2>
+      <div class="skills-grid">
+        <div class="skill-col reveal">
+          <h3>🎼 音乐制作</h3>
+          <div class="skill"><div class="skill-head"><span>Logic Pro</span><span>95%</span></div><div class="bar"><i style="--w:95%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>Cubase</span><span>88%</span></div><div class="bar"><i style="--w:88%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>Sibelius · 乐谱制作</span><span>85%</span></div><div class="bar"><i style="--w:85%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>管弦乐配器 · MIDI Mock-up</span><span>90%</span></div><div class="bar"><i style="--w:90%"></i></div></div>
+        </div>
+        <div class="skill-col reveal">
+          <h3>🎛️ 声音设计</h3>
+          <div class="skill"><div class="skill-head"><span>Foley · Field Recording</span><span>88%</span></div><div class="bar"><i style="--w:88%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>Audio Editing（EQ / Pitch / Stretch）</span><span>90%</span></div><div class="bar"><i style="--w:90%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>Granular · Serum 合成</span><span>82%</span></div><div class="bar"><i style="--w:82%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>Reverb / Delay / Automation / Panning</span><span>90%</span></div><div class="bar"><i style="--w:90%"></i></div></div>
+        </div>
+        <div class="skill-col reveal">
+          <h3>🤖 AI 与跨界</h3>
+          <div class="skill"><div class="skill-head"><span>Suno · 火山 AI 音乐生成</span><span>85%</span></div><div class="bar"><i style="--w:85%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>AI 素材 + Logic 二次创作</span><span>85%</span></div><div class="bar"><i style="--w:85%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>AI 音乐数据分析</span><span>80%</span></div><div class="bar"><i style="--w:80%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>产品调研 · 需求规划</span><span>78%</span></div><div class="bar"><i style="--w:78%"></i></div></div>
+        </div>
+      </div>
+      <div class="tools-row reveal">
+        <span class="tool">Hybrid Orchestral</span><span class="tool">Electronic</span><span class="tool">MIDI Programming</span>
+        <span class="tool">Sound Design</span><span class="tool">Film Mixing</span><span class="tool">Music Analysis</span>
+        <span class="tool">IELTS 6.5 · Speaking 7.5</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 玩家侧写 -->
+  <section class="section" id="games">
+    <div class="container">
+      <p class="section-tag reveal">Player Profile</p>
+      <h2 class="section-title reveal">玩家侧写 🎮</h2>
+      <p class="section-desc reveal">深度玩家视角，让我天然理解游戏节奏与反馈设计——这也是游戏音频灵感的来源。</p>
+      <div class="games-grid">
+        <div class="game-card reveal"><span class="g-icon">⛩️</span><h4>阴阳师</h4><p>1000+ 小时 · 满级<br />斗技八段</p></div>
+        <div class="game-card reveal"><span class="g-icon">👑</span><h4>王者荣耀</h4><p>13000+ 局 · 最高 150 星<br />巅峰赛 2100</p></div>
+        <div class="game-card reveal"><span class="g-icon">⚔️</span><h4>燕云十六声</h4><p>600+ 小时<br />110 级</p></div>
+        <div class="game-card reveal"><span class="g-icon">🎯</span><h4>无畏契约</h4><p>100+ 小时<br />战术射击爱好者</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <p class="section-tag reveal">Contact</p>
+      <h2 class="section-title reveal">为你的画面写下声音</h2>
+      <p class="section-desc reveal">配乐、声音设计、游戏音频合作，欢迎随时联系。</p>
+      <div class="contact-grid">
+        <a class="contact-item reveal" href="mailto:careen617@gmail.com">
+          <span class="ci-icon">📮</span><div><strong>邮箱</strong><p>careen617@gmail.com</p></div>
+        </a>
+        <a class="contact-item reveal" href="tel:17714594033">
+          <span class="ci-icon">📱</span><div><strong>电话</strong><p>17714594033</p></div>
+        </a>
+        
+      </div>
+      <div class="contact-cta reveal">
+        
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 任馨芸 Xinyun Ren · 以音符与声音书写故事</p>
+      <div class="socials">
+        <a href="mailto:careen617@gmail.com">Email</a>
+        
+        <a href="tel:17714594033">电话</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="回到顶部">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
