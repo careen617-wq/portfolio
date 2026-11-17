@@ -212,10 +212,3 @@ function initMedia(frame) {
 document.querySelectorAll(".media-frame").forEach(initMedia);
 
 
-// ========== 首页卡片视频预览（悬停播放） ==========
-document.querySelectorAll(".work-thumb video").forEach((v) => {
-  const card = v.closest("a");
-  if (!card) return;
-  card.addEventListener("mouseenter", () => { v.play().catch(() => {}); });
-  card.addEventListener("mouseleave", () => { v.pause(); v.currentTime = 0; });
-});
